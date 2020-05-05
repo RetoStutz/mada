@@ -24,6 +24,31 @@ public class huffman {
             e.printStackTrace();
         }
         return data;
-
     }
+
+
+//    public String readBinary(){
+//        System.out.println("Reading binary file into byte array example");
+//        String s ="";
+//        try{
+//            //Instantiate the file object
+//            File file = new File(FILE_NAME);
+//            //Instantiate the input stread
+//            InputStream insputStream = new FileInputStream(file);
+//            long length = file.length();
+//            byte[] bytes = new byte[(int) length];
+//
+//            insputStream.read(bytes);
+//            insputStream.close();
+//
+//            s = new String(bytes);
+//            //Print the byte data into string format
+//            System.out.println(s);
+//        }catch(Exception e){
+//            System.out.println("Error is:" + e.getMessage());
+//        }
+//
+//        return s;
+//    }
+
 }
