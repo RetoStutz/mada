@@ -3,8 +3,9 @@ package SiebDesEratostenes;
 public class Main{
 
     public static void main(String[] args) {
-        SiebDesEratostenes newSieb = new SiebDesEratostenes();
-        newSieb.start();
+            Sieb a = new Sieb();
+
+            a.sieb(1000);
 
     }
 }
